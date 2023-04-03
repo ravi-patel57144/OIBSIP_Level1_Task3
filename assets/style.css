@@ -1,0 +1,88 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(to bottom right, #f27289, #f08e4c);
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #eb3b5a;
+    font-size: 36px;
+}
+
+i.fas.fa-thermometer-half {
+    font-size: 48px;
+    margin-right: 10px;
+}
+
+.input-field, .select-unit, .button-container, .output {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-field label, .select-unit label, .output label {
+    width: 160px;
+    text-align: right;
+    margin-right: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-field input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    color: #333;
+    border-radius: 3px;
+}
+
+.select-unit select {
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    color: #333;
+    border-radius: 3px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e46078;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#convertedTemperature {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #eb3b5a;
+}

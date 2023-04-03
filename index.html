@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+		<form>
+			<h1><i class="fas fa-thermometer-half"></i> Temperature Converter</h1>
+			<div class="input-field">
+				<label for="temperature">Enter Temperature:</label>
+				<input type="text" id="temperature" placeholder="Enter temperature here...">
+			</div>
+			<div class="select-unit">
+				<label for="unit">Select Unit:</label>
+				<div class="custom-select">
+					<select id="unit">
+						<option value="celsius">Celsius</option>
+						<option value="fahrenheit">Fahrenheit</option>
+						<option value="kelvin">Kelvin</option>
+					</select>
+					<div class="select-arrow"></div>
+				</div>
+			</div>
+			<div class="button-container">
+				<button type="button" onclick="convertTemperature()">Convert</button>
+			</div>
+			<div class="output">
+				<label for="convertedTemperature">Converted Temperature:</label>
+				<p id="convertedTemperature"></p>
+			</div>
+		</form>
+	</div>
+    
+	<script src="assets/app.js"></script>
+</body>
+</html>
